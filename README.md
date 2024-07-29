@@ -55,7 +55,7 @@ npm start
 The website will be available at http://localhost:3000 in the browser.
 
 6) Deployed website:
-   
+   The website was depolyed on **"https://school-website-assignment.netlify.app/** using Netlify
 
 8) Additional Notes:
 
