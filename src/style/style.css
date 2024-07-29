@@ -1,0 +1,283 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.side
+{
+    /* padding: 20px;
+    background-color: #433D8B; */
+    display: flex;
+    margin-top: 27px;
+    font-size: 16px;
+    gap: 30px;
+    margin-left: 180px;
+    color: #003285;
+    font-weight: 500;
+}
+.gap
+{
+    gap: 1px
+}
+.grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.home
+{
+    
+    margin: 70px 150px ;
+    gap: 20px;
+}
+.grid-2
+{
+  margin: 70px 190px ;
+  gap: -50px;
+}
+.carousel-caption
+{
+  position: relative;
+ top: -700px;
+ 
+    left: 10px;
+}
+.banner-img
+{
+  width: 1540px; 
+  height: 500px; 
+  margin-top: 50px;
+}
+.history-img
+{
+    width: 550px;
+    border: 2px solid white;
+    border-radius: 16px;
+    height: 500px;
+}
+.list
+{
+    text-align: justify;
+    list-style-type: none;
+    width: 500px;
+    margin-top: 10px;
+}
+.list li {
+    list-style-type: symbols('✏');
+    text-wrap: wrap;
+  }
+  .pencil
+  {
+    margin-right: 20px;
+  }
+
+  li::marker
+  {
+    color: #003285;
+  }
+  .img-infra
+  {
+    width: 250px;
+    height: 300px;
+    margin-right: 50px;
+    box-shadow: 8px 8px 15px blue; 
+    border: 4px solid blue;
+    margin-top: 20px;
+  }
+  .img-infra:hover{
+    width: 500px;
+    height: 400px;
+    margin-top: -35px;
+  }
+  .link-name
+  {
+    color: #007BFF;
+    text-decoration: none
+  }
+  .head
+  {
+    font-size: 32px; font-weight: 700; margin-bottom: 15px; 
+    color:#4CAF50
+  }
+  .head-process
+  {font-size: 30px; font-weight: 700; margin-top: 15px;
+    margin-bottom: 5px; 
+    color:#4CAF50}
+  .curriculum
+  {
+    gap: 50px;
+    margin: 50px 120px;
+    background-color: #F9F8C1;
+    height: 550px;
+    line-height: 1.85;
+    text-align: justify;
+    border: 5px solid #ECEB98;
+    border-radius: 16px;
+  }
+
+  .description
+  {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .font 
+  {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffc107;
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .science
+  {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+ 
+  .thead:hover{
+    background-color: #944E63;
+  }
+
+  .faculty
+  {
+    background-color: orange;
+    margin-top: 30px;
+    text-align: left; 
+    padding: 15px; 
+    font-size: 40px; 
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    text-shadow: 2px 2px 5px blue;
+  }
+
+  .margin
+  {
+    margin-top: 50px;
+  }
+  .student-heading
+  {
+   
+    text-align: left; 
+    margin-left: 20px;
+ 
+  }
+
+  .student-sub-heading
+  {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 80px;
+  }
+  .arrange
+  {
+    display: flex;
+  }
+  .photo
+  {
+    width: 250px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+  }
+  .student-council
+  {
+    width: 550px;
+    height: 250px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 10;
+  }
+  .student-council-img
+  {
+    display: grid; 
+    grid-template-columns: 150px 150px 150px;
+    gap: 100px; 
+    margin-left: 350px;
+    margin-right:150px;
+    margin-top: 40px;
+    border: 13px solid rgb(15, 7, 247);
+    background-color: turquoise;
+    border-radius: 32px;
+    padding: 10px 20px 10px 20px;
+    width: 800px;
+  
+  }
+
+  .student-council:hover
+  {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    z-index: 100;
+    margin-top: -250px;
+  }
+  .name-props
+  {
+    margin-left: 90px;
+    text-align: justify;
+    width: 100px;
+    padding-top: 5px;
+  }
+  .name
+  {
+    font-size: 17px;
+    font-weight: 700;
+    color: red;
+  }
+  .grade
+  {
+    margin-left: 15px;
+    font-weight: 400;
+    color: red;
+  }
+
+  .gallery-photo
+  {
+    width: 250px;
+    height: 250px;
+    margin-left: 35px;
+    margin-top: 25px;
+  }
+  .gallery-description
+  {
+    width: 250px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003285;
+  }
+  .text
+  {
+    width: 250px;
+    height: 90px;
+    margin-bottom: 25px;
+  }
+  .btn-success
+  {
+    width: 150px;
+  }
+  /**************************HTML********************************************/
+  .body
+  {
+    margin: 0 auto;
+  }
+  
+  .header
+  {
+    display: flex;
+  }
+  
+  .logo
+  {
+    width: 20px; 
+    height: 20px;
+background-color: red
+  }
