@@ -3,15 +3,14 @@ import Pencil from '../Images/Pencil.jpg'
 function Curriculum() {
   return (
     <div>
-        <img src={Pencil} className='banner-img'/>
+        <img src={Pencil} className='banner-img' alt='pencil-logo'/>
         <div className='grid curriculum'>
             <div>
                 <h3 className='description'>Primary School Curriculum (Grades 1-5)</h3>
-                <p style={{marginLeft: "20px"}}>The CBSE (Central Board of Secondary Education) envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavor. The Board commits itself to providing a stress-free learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.
+                <div style={{marginLeft: "20px"}}>The CBSE (Central Board of Secondary Education) envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavor. The Board commits itself to providing a stress-free learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.
 
 <p style={{marginTop: "10px"}}>The primary curriculum is based on the NCERT framework as per the CBSE syllabus. The subjects are:</p>
 <ul style={{marginLeft: "40px"}}>
-{/* English, Mathematics, Science, Social Studies, Art, Physical Education */}
     <li>English</li>
     <li>Mathematics</li>
     <li>Science</li>
@@ -20,12 +19,12 @@ function Curriculum() {
     <li>Physical Education</li>
 
 </ul>
-</p>
+</div>
             </div>
             
             <div  >
                 <h3 className='description'>Secondary School Curriculum (Grades 6-10)</h3>
-                <p style={{marginRight: "20px"}}>For the purpose of fostering core competences in learners, the curriculum encompasses seven major learning areas, which are:  
+                <div style={{marginRight: "20px"}}>For the purpose of fostering core competences in learners, the curriculum encompasses seven major learning areas, which are:  
 {/* English, Mathematics, Science, Social Studies, Art, Physical Education */}
 <ul>
     <li>English</li>
@@ -39,7 +38,7 @@ function Curriculum() {
 <p style={{marginTop: "15px"}}>
 It refers to the content of learning, not the titles of subjects. Beyond the required core and elective courses, optional courses relevant to specific curriculum areas may also be made available in consideration of changing individual, societal and global requirements and demands.
 </p>
-                </p>
+</div>
             </div>
         </div>
 

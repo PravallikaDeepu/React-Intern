@@ -4,7 +4,7 @@ function Faculty() {
   return (
     <div>
       <h1 className='faculty'>FACULTY</h1>
-      <table class="table table-bordered table-hover" style={{width: "900px", margin: "50px 80px", backgroundColor: "#FFF6F6"}}>
+      <table className="table table-bordered table-hover" style={{width: "900px", margin: "50px 80px", backgroundColor: "#FFF6F6"}}>
   <thead>
     <tr style={{backgroundColor: "#F3D7CA", color:"#632626", fontSize:"18px"}} className='thead table-hover'>
       <th scope="col">S.NO</th>

@@ -1,6 +1,4 @@
 import React from 'react';
-import Download from './DownloadForm';
-import { useNavigate } from 'react-router-dom';
 
 function Admissions() {
 

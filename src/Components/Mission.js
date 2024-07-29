@@ -5,12 +5,12 @@ import Library from '../Images/Library.jpg'
 function Mission() {
   return (
     <div>
-    <img src={Library} className='banner-img' />
+    <img src={Library} className='banner-img' alt='library' />
 
     <div className='grid-2 grid'>
         <div>
 
-            <img src={Learning} style={{width: "450px", marginTop:"100px", height: "400px", borderRadius: "15px"}}/> 
+            <img src={Learning} style={{width: "450px", marginTop:"100px", height: "400px", borderRadius: "15px"}} alt='learning'/> 
         </div>
         <div style={{marginTop: "110px", marginBottom: "40px"}}>
             <h3 style={{marginLeft: "-280px", marginBottom: "20px"}} className='head'>Mission</h3>

@@ -1,7 +1,6 @@
 import React from 'react'
 import image1 from '../Images/SportsDay.jpg';
 import image2 from '../Images/science.jpeg';
-import image3 from '../Images/image3.jpg';
 import school from '../Images/school.jpg'
 import Cultural from '../Images/Cultural fest.jpg'
 import '../style/style.css'
@@ -23,36 +22,36 @@ function Card() {
         </div>
       </div>
 
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src={image1} alt="First slide" style={{ height: "700px" }} />
-            <div class="carousel-caption d-none d-md-block">
+      <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img className="d-block w-100" src={image1} alt="First slide" style={{ height: "700px" }} />
+            <div className="carousel-caption d-none d-md-block">
               <h5 style={{ fontSize: "50px", fontWeight: "bold", color: "Blue" }}>Annual Sports Day - Celebrating Excellence in Sports</h5>
             </div>
           </div>
           
-          <div class="carousel-item">
-            <img class="d-block w-100" src={Cultural} alt="Second slide" style={{ height: "700px" }} />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img className="d-block w-100" src={Cultural} alt="Second slide" style={{ height: "700px" }} />
+            <div className="carousel-caption d-none d-md-block">
               <h5 style={{ fontSize: "50px", fontWeight: "bold", color: "Blue" }}>Cultural Fest - Embracing Diversity and Creativity</h5>
             </div>
           </div>
 
-          <div class="carousel-item">
-            <img class="d-block w-100" src={image2} alt="Second slide" style={{ height: "700px" }} />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img className="d-block w-100" src={image2} alt="Second slide" style={{ height: "700px" }} />
+            <div className="carousel-caption d-none d-md-block">
               <h5 style={{ fontSize: "50px", fontWeight: "bold", color: "Blue" }}>Science Exhibition - Showcasing Student Innovations</h5>
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+        <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+        <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="sr-only">Next</span>
         </a>
       </div>
     </div>

@@ -19,12 +19,12 @@ function Infra() {
     <li>Sports facilities including a playground, gymnasium, and swimming pool</li>
   </ul>
        <div style={{marginTop: "50px", display: "flex", border: "2px solid white"}} >
-       <img src={Class} className='img-infra'/>
-       <img src={Science} className='img-infra'/>
+       <img src={Class} className='img-infra' alt='img-infra'/>
+       <img src={Science} className='img-infra' alt='img-infra'/>
        
-       <img src={Sports} className='img-infra'/>
-       <img src={Play} className='img-infra'/>
-      <img src={Digital} className='img-infra'/>
+       <img src={Sports} className='img-infra' alt='img-infra'/>
+       <img src={Play} className='img-infra' alt='img-infra'/>
+      <img src={Digital} className='img-infra' alt='img-infra'/>
        
        </div>
 

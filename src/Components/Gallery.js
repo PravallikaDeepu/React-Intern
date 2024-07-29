@@ -43,12 +43,12 @@ function Gallery() {
 
         <div>
         <h4 style={{marginTop: "50px", fontSize:" 32px"}} className='head'>Video</h4>
-        <iframe id="schoolVideo" title='schoolVideoTour' width="1360" height="415" src="https://www.youtube.com/embed/7izHBJRGf8c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="schoolVideo" title='schoolVideoTour' width="1500" height="515" src="https://www.youtube.com/embed/7izHBJRGf8c" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
         <div>
 
        
-                <iframe id='schoolAnnual' title='school Annual day' width="1360" height="415" src="https://www.youtube.com/embed/l4S2AyC_rMg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={{marginTop:"35px"}}></iframe>
+                <iframe id='schoolAnnual' title='school Annual day' width="1500" height="515" src="https://www.youtube.com/embed/l4S2AyC_rMg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{marginTop:"35px"}}></iframe>
                 </div>
         </div>
         

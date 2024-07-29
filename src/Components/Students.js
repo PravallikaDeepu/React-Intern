@@ -28,21 +28,21 @@ We have opened up our learning spaces in innovative ways that seamlessly link th
 <h2 style={{fontWeight: "700"}} className='head'>Student Council:</h2>
 <div className='student-council-img' >
 <div>
-<img src={President} className='student-council'/>
+<img src={President} className='student-council' alt='president'/>
         <figcaption className='name-props'>
             <h5 className='name'>Amy Parser</h5>
             <p className='grade'>Grade 12</p>
         </figcaption>
 </div>
 <div >
-<img src={VicePresident} className='student-council'/>
+<img src={VicePresident} className='student-council' alt='Rajiv Mehta'/>
         <figcaption className='name-props'>
             <h5  className='name'>Rajiv Mehta</h5>
             <p className='grade'>Grade 11</p>
         </figcaption>
 </div>
 <div>
-<img src={Secretary} className='student-council'/>
+<img src={Secretary} className='student-council' alt='lisa wong'/>
         <figcaption className='name-props'>
             <h5  className='name'>Lisa Wong</h5>
             <p className='grade'>Grade 10</p>
