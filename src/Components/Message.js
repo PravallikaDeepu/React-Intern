@@ -5,7 +5,7 @@ function Message() {
   return (
     <div style={{gap: "1px", display: "grid", gridTemplateColumns: "500px 500px", margin: "70px 250px"}}>
         <div>
-            <h3 style={{marginLeft: "-150px", fontSize: "24px"}}>Principal</h3>
+            <h3 style={{marginLeft: "-150px", fontSize: "24px", fontWeight: 700,color: "#f0ad4e"}}>Principal</h3>
         <img src={Principal} style={{width: "350px", borderRadius: "10px", height: "450px"}} alt='principle-photo'/>
         <h5 style={{marginTop: "5px", marginLeft: "-150px", fontSize: "24px"}}>John Doe</h5>
         <p style={{marginTop: "-2px", marginLeft: "-150px", fontSize: "20px"}}>M.Ed</p>

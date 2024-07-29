@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+/********************School Assignment - React School Website README********************************/
+This README file provides an overview of the React school website project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Description:
+This project is a school website built using React. It aims to provide informative and engaging content about the school, its facilities, and programs. The website utilizes dynamic routing for navigation and leverages Bootstrap and Tailwind CSS for responsive and visually appealing styling.
 
-## Available Scripts
+Key Features:
 
-In the project directory, you can run:
+1) Home Page: Displays the school logo, mission, vision, and key highlights.
+2) About Us: Provides detailed information about the school's history, faculty, and achievements through dedicated links.
+3) Admissions: Offers clear navigation to essential information about the admission process, eligibility criteria, and important dates.
+4) Academics: Explains the school's curriculum, offered programs, and faculty details. Additionally, it presents an **offline downloadable application form.**
+5) Gallery: Showcases captivating images of school events, activities, and facilities. Each image is enhanced with **hover effects** for a dynamic experience.
+6) Contact Us: Provides contact information for the school, making it easy for users to connect.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Technologies Used:**
+**React:** For building the user interface and managing component state.
+**React Router:** For handling navigation between different pages of the website.
+**Bootstrap:** For utilizing pre-built CSS components to streamline development.
+**Tailwind CSS:** For implementing utility-first styling and customization options.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Installation Prerequisites:**
 
-### `npm test`
+Node.js and npm (or yarn) installed on your system.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+**Steps:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1) Clone the Repository:
+Bash
+git clone https://github.com/PravallikaDeepu/React-Intern
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2) Navigate to Project Directory:
+Bash
+cd myapp
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3) Install Dependencies:
+Bash
+npm install react-router-dom
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4) Running the Project
+Start the Development Server:
+Bash
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+5) Open the Website:
+The website will be available at http://localhost:3000 in the browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6) Additional Notes:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Accessibility: The website prioritizes accessibility for users with disabilities.
+Future Improvements: Potential future features include implementing an downloadable admission form for increased user convenience.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Screenshots**
+1) Header
