@@ -12,11 +12,11 @@ function Academics() {
     About Us
   </button>
   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <Link className="dropdown-item" to="/history">History</Link>
-    <Link className="dropdown-item" to="/vision">Vision</Link>
-    <Link className="dropdown-item" to="/mission">Mission</Link>
-    <Link className="dropdown-item" to="/message">Principal's Message</Link>
-    <Link className="dropdown-item" to="/infra">Infrastructure and Facilities</Link>
+    <Link className="dropdown-item" to="/history/">History</Link>
+    <Link className="dropdown-item" to="/vision/">Vision</Link>
+    <Link className="dropdown-item" to="/mission/">Mission</Link>
+    <Link className="dropdown-item" to="/message/">Principal's Message</Link>
+    <Link className="dropdown-item" to="/infra/">Infrastructure and Facilities</Link>
 
 </div>  
   </div>

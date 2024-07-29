@@ -11,14 +11,14 @@ function Card() {
       <div className='grid home'>
         <div style={{width: "500px"}}>
           <p style={{fontWeight: 700, fontSize: "25px", textAlign: "justify", marginLeft: "15px", marginRight: "15px",marginTop:"25px" }}> "Welcome to Springdale Public School, where we nurture young minds for a brighter future."</p>
-          <p style={{fontSize: "15px", margin: "30px 20px 0px 20px", textAlign: "justify" }}>We are a part of XYZ Education Society, which has a strong presence on the education map of Pune. The Trust has been associated with Management education since 1994. The school segment has been operational since 2004.</p>
+          <p style={{fontSize: "15px", margin: "30px 20px 0px 20px", textAlign: "justify", lineHeight:2 }}>We are a part of XYZ Education Society, which has a strong presence on the education map of Pune. The Trust has been associated with Management education since 1994. The school segment has been operational since 2004.</p>
 
-          <p style={{fontSize: "15px", margin: "10px 20px 0px 20px", textAlign: "justify" }}>Today we are a full fledged CBSE affiliated school with student strength 3821 and a total staff of 267 . We are committed to excellence in education from KG to PG.</p>
+          <p style={{fontSize: "15px", margin: "10px 20px 0px 20px", textAlign: "justify", lineHeight:2 }}>Today we are a full fledged CBSE affiliated school with student strength 3821 and a total staff of 267 . We are committed to excellence in education from KG to PG.</p>
 
 
         </div>
         <div>
-          <img  src={school} alt='school building' style={{width: "750px", height: "350px" }} />
+          <img  src={school} alt='school building' style={{width: "750px", height: "350px", marginTop: "30px" , borderRadius: "50px"}} />
         </div>
       </div>
 
