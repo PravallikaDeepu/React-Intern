@@ -29,7 +29,8 @@ function Header() {
       </div>
      
         <div className='side'>
-          <Link to="/home/"  className='link-name'>Home</Link>
+          <h5>Home</h5>
+        {/* <Link to="/home/"  className='link-name'>Home</Link> */}
           <div className="dropdown">
   <button className="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{borderStyle: "none", backgroundColor: "inherit", color:"#007bff", fontSize: "16px", fontWeight: "500"}}>
     About Us
