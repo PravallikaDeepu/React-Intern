@@ -29,8 +29,8 @@ function Header() {
       </div>
      
         <div className='side'>
-          <h5>Home</h5>
-        {/* <Link to="/home/"  className='link-name'>Home</Link> */}
+          
+        <Link to="/home/"  className='link-name'>Home</Link>
           <div className="dropdown">
   <button className="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{borderStyle: "none", backgroundColor: "inherit", color:"#007bff", fontSize: "16px", fontWeight: "500"}}>
     About Us
@@ -69,7 +69,7 @@ function Header() {
       
     </div>
     <Routes>
-      <Route path='/home/' element={<Home/>}></Route>
+      {/* <Route path='/home/' element={<Home/>}></Route> */}
           <Route path='/contact/' element={<Contact/>} />
           <Route path='/history/' element= {<History/>} />
           <Route path='/vision/' element={<Vision/>}/>
