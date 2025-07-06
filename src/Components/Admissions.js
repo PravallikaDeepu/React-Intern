@@ -15,7 +15,9 @@ function Admissions() {
 <li style={{listStyleType: "circle"}}>Entrance Test: April 15th</li>
 <li style={{listStyleType: "circle"}}>Announcement of Results: April 30th</li>
 </ul>
-<a class="btn btn-primary" href='admissionform.html' role="button" style={{marginTop: "20px"}}>Application Form</a>
+<a class="btn btn-warning" href='admissionform.html' role="button" style={{marginTop: "20px"}}>Application Form(Offline)</a>
+    <a class="btn btn-primary" href='http://localhost:4001/admission/form' role="button" style={{marginTop: "20px", marginLeft: "100px"}}>Application Form(Online)</a>
+
     </div>
   )
 }
