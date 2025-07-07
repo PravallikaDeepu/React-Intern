@@ -1,26 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import Home from './Card';
-import History from './History';
-import Vision from './Vision';
-import Mission from './Mission';
-import Message from './Message';
-import Infra from './Infra'
-import Academics from './Academics';
-import Curriculum from './Curriculum';
-import Methodology from './Methodology';
-import Resources from './Resources'
-import '../style/style.css'
-import Admissions from './Admissions';
-import Faculty from './Faculty';
-import Students from './Students';
-import Gallery from './Gallery';
-import Contact from './Contact';
 
 
 function Header() {
   return (
-    <BrowserRouter>
+    
     <div style={{ display: "flex", marginTop: "30px" }}>
       <div style={{ display: "flex" }}>
         <img src='https://tse3.mm.bing.net/th?id=OIP.hcS9B6u-dDsoDmdtd9caZwHaHa&pid=Api&P=0&h=180' style={{ width: "75px", height: "75px" }} alt="logo" />
@@ -68,25 +52,7 @@ function Header() {
         
       
     </div>
-    <Routes>
-      <Route path='/' element={<Home/>}></Route>
-          <Route path='/contact/' element={<Contact/>} />
-          <Route path='/history/' element= {<History/>} />
-          <Route path='/vision/' element={<Vision/>}/>
-          <Route path='/mission/' element={<Mission/>}/>
-          <Route path='/message/' element={<Message/>}/>
-          <Route path='/infra/' element={<Infra/>}/>
-          <Route path='/academics/' element= {<Academics/>}/>
-          <Route path='/curriculum/' element={<Curriculum/>}/>
-          <Route path='/methodology/' element={<Methodology/>}/>
-          <Route path='/resources/' element={<Resources/>}/>
-          <Route path='/admissions' element={<Admissions/>}/>
-          <Route path='/faculty/' element={<Faculty/>}/>
-         <Route path='/student/' element={<Students/>}/>
-         <Route path='/gallery/' element={<Gallery/>}/>
-
-        </Routes>
-    </BrowserRouter>
+   
   )
 }
 

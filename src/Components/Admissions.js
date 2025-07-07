@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Admissions() {
 
@@ -16,8 +17,7 @@ function Admissions() {
 <li style={{listStyleType: "circle"}}>Announcement of Results: April 30th</li>
 </ul>
 <a class="btn btn-warning" href='admissionform.html' role="button" style={{marginTop: "20px"}}>Application Form(Offline)</a>
-    <a class="btn btn-primary" href='http://localhost:4001/admission/form' role="button" style={{marginTop: "20px", marginLeft: "100px"}}>Application Form(Online)</a>
-
+    <Link to='/admission/form' className='btn btn-primary'  style={{marginTop: "20px", marginLeft: "100px"}}>Application Form(Online)</Link>
     </div>
   )
 }
