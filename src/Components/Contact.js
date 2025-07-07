@@ -71,7 +71,7 @@ Email: "info@springdale.edu" #17a48b*/}
 <div>
 
 
-    <form onSubmit={handleSubmit} style={{width: "450px", height: "450px", border: "10px solid #03AED2", marginLeft: "-150px", padding: "35px", backgroundColor:"#D2E9E9", borderRadius: "40px", fontSize: "20px", boxShadow: "0 0 30px #bfcdbf"}} action="http://localhost:4001/contact">
+    <form onSubmit={handleSubmit} style={{width: "450px", height: "450px", border: "10px solid #03AED2", marginLeft: "-150px", padding: "35px", backgroundColor:"#D2E9E9", borderRadius: "40px", fontSize: "20px", boxShadow: "0 0 30px #bfcdbf"}}>
         <h5 style={{marginBottom: "20px", fontSize: "30px", fontWeight: "700"}}>Contact Us</h5>
         Name: <input required type='text' onChange={handleName}/><br/><br/>
         Email: <input required type='email' onChange={handleEmail}/><br/><br/>
