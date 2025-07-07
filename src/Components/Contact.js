@@ -6,7 +6,7 @@ import { useState} from 'react';
 import Axios from 'axios'
 
 function Contact() {
-    const API_BASE_URL = process.env.REACT_BACKEND_URL || "http://localhost:4001"
+    const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:4001"
     const [myName,setmyName] = useState("")
     const [myEmail,setmyEmail] = useState("")
     const [myMessage,setmyMessage] = useState("")

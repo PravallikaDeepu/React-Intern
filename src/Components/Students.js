@@ -25,7 +25,8 @@ We have opened up our learning spaces in innovative ways that seamlessly link th
 </ul>
 
 
-<h2 style={{fontWeight: "700"}} className='head'>Student Council:</h2>
+<h2 style={{fontWeight: "700", marginLeft: "20px"}} className='head'>Student Council:</h2>
+
 <div className='student-council-img' >
 <div>
 <img src={President} className='student-council' alt='president'/>
@@ -33,6 +34,8 @@ We have opened up our learning spaces in innovative ways that seamlessly link th
             <h5 className='name'>Amy Parser</h5>
             <p className='grade'>Grade 12</p>
         </figcaption>
+
+        
 </div>
 <div >
 <img src={VicePresident} className='student-council' alt='Rajiv Mehta'/>

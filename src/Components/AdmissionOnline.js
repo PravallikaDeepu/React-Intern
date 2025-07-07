@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Axios from 'axios'
 
 function AdmissionOnline() {
-    const API_URL = process.env.REACT_BACKEND_URL || "http://localhost:4001"
+    const API_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:4001"
     const [myFirst, setMyFirst] = useState("")
     const [myLast, setMyLast] = useState("")
     const [myDob, setMyDob] = useState("")
